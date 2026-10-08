@@ -498,3 +498,11 @@ body.is-locked { overflow: hidden; }
 .promo--dark:hover img { transform: scale(1.04) rotate(-2deg); }
 @media (max-width: 1100px) { .promo--dark img { width: 80%; right: -10%; bottom: -20%; } }
 @media (max-width: 640px) { .promo--dark img { width: 86%; right: -16%; bottom: -24%; } }
+
+/* Mobile: categories become a one-row swipe slider */
+@media (max-width: 640px) {
+  .ccats { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin-inline: calc(var(--gutter) * -1); padding: 4px var(--gutter) 8px; scroll-padding-inline: var(--gutter); }
+  .ccats::-webkit-scrollbar { display: none; }
+  .ccats > li { flex: 0 0 27%; scroll-snap-align: start; }
+  .ccat strong { font-size: .92rem; }
+}
