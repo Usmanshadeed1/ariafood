@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aria Spanish Products | Design proposals</title>
+  <meta name="description" content="Five homepage design proposals for Aria Spanish Products.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Gilda+Display&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink: #1E1412; --muted: #6F625A; --line: #ECE7E0; --bg: #FFFFFF; --soft: #F7F4EF; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Instrument Sans", system-ui, sans-serif; color: var(--ink); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-decoration: none; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 48px); }
+    header { padding: clamp(48px, 7vw, 96px) 0 clamp(32px, 4vw, 48px); border-bottom: 1px solid var(--line); }
+    header img { width: 72px; border-radius: 3px; }
+    h1 { font-family: "Gilda Display", serif; font-weight: 400; font-size: clamp(2.2rem, 1.4rem + 3vw, 3.6rem); line-height: 1.05; margin: 24px 0 12px; }
+    header p { margin: 0; color: var(--muted); max-width: 40em; font-size: 1.08rem; line-height: 1.6; }
+    ul { list-style: none; margin: 0; padding: clamp(32px, 4vw, 56px) 0 clamp(64px, 8vw, 112px); display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
+    .card { display: flex; flex-direction: column; height: 100%; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; transition: transform .25s ease, box-shadow .25s ease; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 24px 40px -24px rgba(30,20,18,.3); }
+    .card:focus-visible { outline: 2px solid #AD1519; outline-offset: 3px; }
+    .swatch { display: flex; height: 120px; }
+    .swatch span { flex: 1; }
+    .body { display: flex; flex-direction: column; gap: 8px; padding: 22px 24px 24px; flex: 1; }
+    .num { font-size: .85rem; font-weight: 600; color: var(--muted); }
+    .name { font-family: "Gilda Display", serif; font-size: 1.7rem; line-height: 1.1; }
+    .desc { color: var(--muted); line-height: 1.55; margin: 0; }
+    .meta { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--line); font-size: .88rem; color: var(--muted); }
+    .open { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-weight: 600; }
+    .open::after { content: "→"; transition: transform .2s ease; }
+    .card:hover .open::after { transform: translateX(4px); }
+    footer { padding: 24px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <img src="assets/images/brand/logo-tile.png" alt="Aria a la Española">
+      <h1>Homepage design proposals</h1>
+      <p>Five directions for the new Aria Spanish Products website. Each one is a working, mobile-friendly homepage with a basket, search and real products from the catalogue. Open any template to explore it.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <ul>
+      <li><a class="card" href="template-1/">
+        <span class="swatch" aria-hidden="true"><span style="background:#7E0F14"></span><span style="background:#AD1519"></span><span style="background:#FABD00"></span><span style="background:#FEF3D2"></span></span>
+        <span class="body">
+          <span class="num">Template 1</span>
+          <span class="name">Azulejo</span>
+          <p class="desc">Elegant and editorial. The original tile logo centred in the header, a split hero with a photo slideshow and a guide to jamón grades.</p>
+          <span class="meta">Spanish flag palette. Fraunces and Figtree.</span>
+          <span class="open">Open template</span>
+        </span>
+      </a></li>
+      <li><a class="card" href="template-2/">
+        <span class="swatch" aria-hidden="true"><span style="background:#2E3A23"></span><span style="background:#F2B53A"></span><span style="background:#D2452B"></span><span style="background:#E3E8D2"></span></span>
+        <span class="body">
+          <span class="num">Template 2</span>
+          <span class="name">Olivar</span>
+          <p class="desc">A modern, shop-first grocery layout. Search bar in the header, colourful category tiles and a one-click tapas board bundle.</p>
+          <span class="meta">Olive and saffron palette. Bricolage Grotesque and DM Sans.</span>
+          <span class="open">Open template</span>
+        </span>
+      </a></li>
+      <li><a class="card" href="template-3/">
+        <span class="swatch" aria-hidden="true"><span style="background:#7E0F14"></span><span style="background:#AD1519"></span><span style="background:#FABD00"></span><span style="background:#FCF0CC"></span></span>
+        <span class="body">
+          <span class="num">Template 3</span>
+          <span class="name">Bandera</span>
+          <p class="desc">The Olivar layout with the original tile logo and the official colours of the Spanish flag.</p>
+          <span class="meta">Spanish flag palette. Bricolage Grotesque and DM Sans.</span>
+          <span class="open">Open template</span>
+        </span>
+      </a></li>
+      <li><a class="card" href="template-4/">
+        <span class="swatch" aria-hidden="true"><span style="background:#4E0A0E"></span><span style="background:#AD1519"></span><span style="background:#FABD00"></span><span style="background:#F7F4EF"></span></span>
+        <span class="body">
+          <span class="num">Template 4</span>
+          <span class="name">Mesa</span>
+          <p class="desc">Premium and calm. A full-width hero slider, quick view on every product, a jamón comparison and a wholesale form built into the page.</p>
+          <span class="meta">Spanish flag accents on white. Gilda Display and Instrument Sans.</span>
+          <span class="open">Open template</span>
+        </span>
+      </a></li>
+      <li><a class="card" href="template-5/">
+        <span class="swatch" aria-hidden="true"><span style="background:#0F0D0B"></span><span style="background:#F2542D"></span><span style="background:#FFC531"></span><span style="background:#1E9E57"></span></span>
+        <span class="body">
+          <span class="num">Template 5</span>
+          <span class="name">Noche</span>
+          <p class="desc">Bold dark and white. A round zooming hero image, a product carousel, colourful promo cards and a menu-style order list.</p>
+          <span class="meta">Pimentón, saffron and olive on black. Outfit and Manrope.</span>
+          <span class="open">Open template</span>
+        </span>
+      </a></li>
+    </ul>
+  </main>
+
+  <footer><div class="wrap">Design proposals for Aria Spanish Products. Product images and data from the Despaña catalogue, for preview only.</div></footer>
+</body>
+</html>

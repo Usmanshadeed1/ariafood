@@ -1,0 +1,272 @@
+{
+  "products": [
+    {
+      "category": "charcuterie",
+      "title": "DESPAÑA Traditional Chorizo",
+      "brand": "Despaña Brand Foods",
+      "price": "14.00",
+      "image": "products/charcuterie--despana-tradicional-chorizo.png"
+    },
+    {
+      "category": "charcuterie",
+      "title": "Palacios Chorizo Hot - Dry Cured Spanish Chorizo",
+      "brand": "Palacios",
+      "price": "16.00",
+      "image": "products/charcuterie--palacio-chorizo-hot-dry-cured-spanish-chorizo.jpg"
+    },
+    {
+      "category": "charcuterie",
+      "title": "FERMÍN Organic Chorizo Bellota (100% Acorn-Fed)",
+      "brand": "Fermín",
+      "price": "24.25",
+      "image": "products/charcuterie--fermin-organic-chorizo-bellota-acorn-7oz.png"
+    },
+    {
+      "category": "charcuterie",
+      "title": "FERMÍN Lomo Ibérico de Bellota Pre-Sliced",
+      "brand": "Fermín",
+      "price": "21.50",
+      "image": "products/charcuterie--fermin-lomo-iberico-de-bellota-pre-sliced.png"
+    },
+    {
+      "category": "charcuterie",
+      "title": "FERMÍN Chorizo Ibérico Pre-Sliced",
+      "brand": "Fermín",
+      "price": "12.30",
+      "image": "products/charcuterie--fermin-chorizo-iberico-de-cebo-pre-sliced.jpg"
+    },
+    {
+      "category": "jamon",
+      "title": "FERMÍN Ibérico de Bellota Ham Pre-Sliced",
+      "brand": "Fermín",
+      "price": "43.50",
+      "image": "products/jamon--fermin-bellota-ham-pre-sliced.png"
+    },
+    {
+      "category": "jamon",
+      "title": "Juan Pedro Domecq 100% Jamón Ibérico de Bellota - Pre Sliced",
+      "brand": "Juan Pedro Domecq",
+      "price": "44.00",
+      "image": "products/jamon--jamon-de-bellota-100-iberico-sliced.jpg"
+    },
+    {
+      "category": "jamon",
+      "title": "Despaña Jamón Serrano Party Pack",
+      "brand": "Despaña Brand Foods",
+      "price": "58.00",
+      "image": "products/jamon--despana-jamon-serrano-party-pack.png"
+    },
+    {
+      "category": "jamon",
+      "title": "FERMÍN Jamón Ibérico de Bellota - Bone In (48 month aged)",
+      "brand": "Fermín",
+      "price": "1540.00",
+      "image": "products/jamon--fermin-jamon-iberico-de-bellota-bone-in.png"
+    },
+    {
+      "category": "cheese",
+      "title": "Adiano Queso Manchego Semicurado D.O.P. – Wedge",
+      "brand": "Adiano",
+      "price": "15.25",
+      "image": "products/cheese--adiano-queso-manchego-semicurado-d-o-p-wedge.jpg"
+    },
+    {
+      "category": "cheese",
+      "title": "EL ATRIO MANCHEGO CHEESE (PDO)",
+      "brand": "Despaña Brand Foods",
+      "price": "13.75",
+      "image": "products/cheese--queso-manchego-dop-wedge.jpg"
+    },
+    {
+      "category": "cheese",
+      "title": "CAMPOLLANO QUESO DE OVEJA CURADO CON PESTO (Pesto Cheese)",
+      "brand": "Campollano",
+      "price": "28.00",
+      "image": "products/cheese--campollano-queso-de-oveja-curado-con-pesto-pesto-c.jpg"
+    },
+    {
+      "category": "seafood",
+      "title": "DON BOCARTE Cantabrian Anchovies",
+      "brand": "Don Bocarte",
+      "price": "17.50",
+      "image": "products/seafood--don-bocarte-anchovies.png"
+    },
+    {
+      "category": "seafood",
+      "title": "La Curiosa Sardines in Truffle Olive Oil",
+      "brand": "La Curiosa",
+      "price": "15.75",
+      "image": "products/seafood--la-curiosa-small-sardines-in-truffle-olive-oil.jpg"
+    },
+    {
+      "category": "seafood",
+      "title": "Luliña Smoked Octopus",
+      "brand": "Luliña",
+      "price": "19.00",
+      "image": "products/seafood--lulina-smoked-octopus.jpg"
+    },
+    {
+      "category": "seafood",
+      "title": "LA CURIOSA WHITE TUNA BELLY SMOKED IN OLIVE OIL",
+      "brand": "La Curiosa",
+      "price": "27.00",
+      "image": "products/seafood--la-curiosa-white-tuna-belly-smoked-in-olive-oil.jpg"
+    },
+    {
+      "category": "olive-oil",
+      "title": "Aubocassa Premium Extra Virgin Olive Oil - 100% Arbequina (PDO)",
+      "brand": "Aubocassa",
+      "price": "39.00",
+      "image": "products/olive-oil--aubocassa-premium-extra-virgin-olive-oil-100-arbeq.png"
+    },
+    {
+      "category": "olive-oil",
+      "title": "MASIA EL ALTET Premium Extra Virgin Olive Oil",
+      "brand": "Masía El Altet",
+      "price": "47.00",
+      "image": "products/olive-oil--masia-el-altet-premium-extra-virgin-olive-oil.jpg"
+    },
+    {
+      "category": "paella",
+      "title": "ARROCERÍAS ANTONIO TOMAS Cebolla Bomba Rice (PDO)",
+      "brand": "ARROCERÍAS ANTONIO TOMAS",
+      "price": "12.00",
+      "image": "products/paella--cebolla-bomba-rice.jpg"
+    },
+    {
+      "category": "paella",
+      "title": "Chiquilin Saffron / Azafran",
+      "brand": "Chiquilín",
+      "price": "165.00",
+      "image": "products/paella--chiquilin-saffron-azafran-1oz.jpg"
+    },
+    {
+      "category": "paella",
+      "title": "El Paeller Wood-Fired Seafood Paella Broth",
+      "brand": "El Paeller",
+      "price": "15.50",
+      "image": "products/paella--el-paeller-wood-fired-seafood-broth.jpg"
+    },
+    {
+      "category": "pantry",
+      "title": "DANTZA Whole Piquillo Peppers (PDO)",
+      "brand": "Dantza",
+      "price": "11.50",
+      "image": "products/pantry--dantza-whole-piquillo-peppers-1.jpg"
+    },
+    {
+      "category": "pantry",
+      "title": "INÉS ROSALES Original Olive Oil Tortas",
+      "brand": "Inés Rosales",
+      "price": "9.00",
+      "image": "products/pantry--ines-rosales-original-olive-oil-tortas.png"
+    },
+    {
+      "category": "pantry",
+      "title": "LA ESPAÑOLA Manzanilla Olives Stuffed with Anchovies",
+      "brand": "La Española",
+      "price": "7.50",
+      "image": "products/pantry--la-espanola-manzanilla-olives-stuffed-with-anchovi.png"
+    },
+    {
+      "category": "pantry",
+      "title": "EL QUIJOTE Membrillo Cream",
+      "brand": "El Quijote",
+      "price": "16.50",
+      "image": "products/pantry--el-quijote-membrillo-cream-250g.jpg"
+    },
+    {
+      "category": "sweets",
+      "title": "1880 Chocolate Bombon Rocher Turrón",
+      "brand": "1880",
+      "price": "22.00",
+      "image": "products/sweets--1880-chocolate-bombon-rocher-turron.jpg"
+    },
+    {
+      "category": "gifts",
+      "title": "Luxury Gourmet Box",
+      "brand": "Despaña Brand Foods",
+      "price": "200.00",
+      "image": "products/gifts--luxury-spanish-gourmet-box.jpg"
+    },
+    {
+      "category": "gifts",
+      "title": "Fiesta Box",
+      "brand": "Despaña Brand Foods",
+      "price": "165.00",
+      "image": "products/gifts--spanish-fiesta-gift-box-new.png"
+    }
+  ],
+  "collections": [
+    {
+      "handle": "chorizo-charcuterie",
+      "title": "Charcuterie & Chorizos",
+      "image": "lifestyle/chorizo-charcuterie.png"
+    },
+    {
+      "handle": "a7-cheese",
+      "title": "Cheese",
+      "image": "lifestyle/a7-cheese.png"
+    },
+    {
+      "handle": "tinned-specialties",
+      "title": "Tinned Seafood",
+      "image": "lifestyle/tinned-specialties.jpg"
+    },
+    {
+      "handle": "a-olive-oils-vinegar",
+      "title": "Olive Oils & Vinegar",
+      "image": "lifestyle/a-olive-oils-vinegar.png"
+    },
+    {
+      "handle": "a6-olives",
+      "title": "Olives & Pickled Items",
+      "image": "lifestyle/a6-olives.png"
+    },
+    {
+      "handle": "rice-pastas-paellas",
+      "title": "Rice, Pastas & Paellas",
+      "image": "lifestyle/rice-pastas-paellas.png"
+    },
+    {
+      "handle": "iberico-hams",
+      "title": "Whole Jamón/Ham Legs",
+      "image": "lifestyle/iberico-hams.jpg"
+    },
+    {
+      "handle": "jamon-bellota",
+      "title": "Jamón Ibérico de Bellota",
+      "image": "lifestyle/jamon-bellota.jpg"
+    },
+    {
+      "handle": "gift-cards-baskets",
+      "title": "Gift Boxes",
+      "image": "lifestyle/gift-cards-baskets.jpg"
+    },
+    {
+      "handle": "spices-seasonings-dry-peppers",
+      "title": "Spices & Seasonings",
+      "image": "lifestyle/spices-seasonings-dry-peppers.png"
+    },
+    {
+      "handle": "world-paella-day",
+      "title": "World Paella Day",
+      "image": "lifestyle/world-paella-day.png"
+    },
+    {
+      "handle": "gilda-ingredients",
+      "title": "Gilda Ingredients",
+      "image": "lifestyle/gilda-ingredients.jpg"
+    },
+    {
+      "handle": "discover-the-flavors-of-andalucia",
+      "title": "Discover the Flavors of Andalucia",
+      "image": "lifestyle/discover-the-flavors-of-andalucia.jpg"
+    },
+    {
+      "handle": "gifts-for-the-entertainer",
+      "title": "Gifts for the Host",
+      "image": "lifestyle/gifts-for-the-entertainer.jpg"
+    }
+  ]
+}
