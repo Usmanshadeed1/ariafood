@@ -29,6 +29,8 @@
     { id: "gift-lux", cat: "gift", brand: "Aria", name: "The luxury gourmet box", price: 200, img: "products/gifts--luxury-spanish-gourmet-box.jpg" },
     { id: "gift-fiesta", cat: "gift", brand: "Aria", name: "The fiesta box", price: 165, img: "products/gifts--spanish-fiesta-gift-box-new.png" },
   ];
+  // Shop pages load js/catalog.js first; merge it so the basket knows every product
+  (window.ARIA_CATALOG || []).forEach((p) => { if (!PRODUCTS.some((x) => x.id === p.id)) PRODUCTS.push(p); });
   const byId = Object.fromEntries(PRODUCTS.map((p) => [p.id, p]));
 
   const cardHTML = (p, i = 0) => `
@@ -230,6 +232,16 @@
     if (e.target.closest("[data-cart-open]")) openDrawer(cartEl);
   });
   renderCart(false);
+
+  // Used by the product page (quantity picker and "Add all" bundle)
+  window.ariaCart = {
+    add(id, n = 1, openAfter = true) {
+      if (!byId[id]) return;
+      cart.set(id, (cart.get(id) || 0) + n);
+      renderCart(true);
+      if (openAfter) setTimeout(() => openDrawer(cartEl), 200);
+    },
+  };
 
   /* ---------- Newsletter ---------- */
   const news = $("[data-news]");

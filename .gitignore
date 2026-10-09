@@ -1,13 +1,6 @@
-# Raw supplier data (not used by the site)
-_source/
-
-# Original full-size family photo (the site uses assets/images/brand/family.jpg)
-assets/images/family photo/
-
-# Reference screenshots
-current very old deisgn website/
-Supplier website where we gte products httpsdespanabrandfoods.com/
-
 # System files
 .DS_Store
 Thumbs.db
+
+# Original full-size family photo (the site uses assets/images/brand/family.jpg)
+assets/images/family photo/
